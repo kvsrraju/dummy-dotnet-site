@@ -10,7 +10,7 @@ if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Error");
 }
-
+# this comment is for testing git
 app.UseRouting();
 
 app.UseAuthorization();
